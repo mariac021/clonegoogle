@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*Estilos para Header*/
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex; /*para podener objetos en linea */
+    list-style: none; /*quitar puntos*/
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-right-section .a1:hover {
+    text-decoration-line: underline;
+}
+
+nav .nav-right-section .a2:hover {
+    text-decoration-line: underline;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png'); /*la propiedad url se hace dentro de comillas simples*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* ocupar todo el espacio del ancho y alto que yo ponga*/
+    width: 25px;
+    height: 25px;
+    cursor: pointer;;
+}
+
+nav .nav-right-section img {
+border-radius: 50%;
+margin-left: 10px;
+width: 32px;
+}
+/*Estilos aplicados al Main*/
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto; /* El auto distrobuye las margenes de izquierda a derecha*/
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+width: 530px;
+margin: 0 auto;
+margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;  
+    justify-content: center;
+    align-items: center;   
+}
+
+main .main-input-container:hover {/*cuando se pone el hover es para realizar una accioón sobre algo*/
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    outline: none; /* para establecer el mismo grosor, estilo y/o anchura de todos los perfiles de un elemento*/
+}
+
+main .main-input .search-icon {
+    background-image: url('https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-icono-de-b-squeda-by-vexels.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://inesh.org/blog/wp-content/uploads/2019/10/google-voice-search-increase-your-google-rank.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-buttons .button1 {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    min-width: 54px;
+    line-height: 27px;
+    height: 36px;
+    margin-top: -5px;
+    padding: 0px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    align-items: center;
+    color: #5F6368;
+    display: flex;
+}
+
+main .main-buttons .button1:hover {/*cuando se pone el hover es para realizar una accioón sobre algo*/
+    border-color: #b0b1b3eb;
+    color: black;
+}
+
+main .main-buttons .button2 {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    min-width: 54px; /* Grosor mínimo que se puede utilizar*/
+    line-height: 27px; /* Altura mínima dentro del elemento*/
+    height: 36px; /* Especifica la altura del contenido de los cuadros*/
+    margin: -5px;
+    padding: 0px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    align-items: center;
+    color: #5F6368;
+    display: flex;
+}
+
+main .main-buttons .button2:hover {/*cuando se pone el hover es para realizar una accioón sobre algo*/
+    border-color: #b0b1b3eb;
+    color: black;
+}
+
+/*Estilos aplicados al footer*/
+
+footer .footer-container {
+    width: 120%;
+    height: 40px;
+    border: 1px solid #dadce0;
+    display: flex;  
+    position: relative;
+    background-color: #f2f2f2;
+    top: 213px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+footer .footer-container2 {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #dadce0;
+        display: flex;  
+        position: relative; 
+        top: 214px;
+        background-color: #f2f2f2;
+        font-size: 13px;
+        
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer  {
+    width: 100%;
+    height: 40px;
+}
+
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ nav .nav-bottom-section {
+    width: 170px;
+    height: 50px;
+    display: flex; /*para poderlos items en linea */
+    list-style: none;
+    text-align: center;
+    margin-left:-15px;
+}
+
+nav .nav-bottom-section-2 {
+    
+    display: flex; /*para poderlos items en linea */
+    list-style: none; /*quitar puntos*/
+    margin-left: -40px;
+    text-align: end;
+    min-width: 100px;  
+    line-height: 20px;  
+}
+
+
+nav .nav-bottom-section-3 {
+    
+    display: flex; /*para poderlos items en linea */
+    list-style: none; /*quitar puntos*/
+    min-width: 54px;
+    line-height: 20px;
+    text-align: end;
+    margin-left: 720px;
+     
+}
+
+nav .nav-bottom-section a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: hsla(0, 0%, 0%, 0.54);
+    cursor: text;    
+}
+
+nav .nav-bottom-section-2 a {
+   padding: 0 0 0 27px;
+    color: hsla(0, 0%, 0%, 0.54);
+}
+   
+ nav .nav-bottom-section-3 a {
+  
+    align-items: center;
+    text-align: end;
+    color: hsla(0, 0%, 0%, 0.54);
+    word-spacing: 1pt;
+    padding: 0 0 0 27px;
+
+   
+}
+
+nav .nav-bottom-section-2 .a4:hover {
+    text-decoration-line: underline;
+}
+
+
+nav .nav-bottom-section-2 .a5:hover {
+    text-decoration-line: underline;
+}
+
+nav .nav-bottom-section-2 .a6:hover {
+    text-decoration-line: underline;
+}
+
+nav .nav-bottom-section-2 .a7:hover {
+    text-decoration-line: underline;
+}
+
+nav .nav-bottom-section-3 .a8:hover {
+    text-decoration-line: underline;
+}
+
+nav .nav-bottom-section-3 .a9:hover {
+    text-decoration-line: underline;
+}
+
+nav .nav-bottom-section-3x .a10:hover {
+    text-decoration-line: underline;
+} 
